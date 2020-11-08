@@ -1,3 +1,3 @@
 # journal-finder-software
 
-A journal finder software tailored to computer science subject areas.
+Journal finder system for academic publications based on similarity detection, written with Python using Flask Framework.
