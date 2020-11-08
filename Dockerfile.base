@@ -1,0 +1,7 @@
+FROM lbosqmsft/mssql-python-pyodbc:latest
+
+COPY requirements.txt /root/journal-finder/requirements.txt
+WORKDIR /root/journal-finder
+
+RUN pip install -r requirements.txt
+
